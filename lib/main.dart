@@ -14,10 +14,12 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Round Image with Button"),
+          
+          title: Text("Round Image with Button"
+          ),
         ),
         body: Padding(
-          padding: EdgeInsets.all(20),
+          padding: EdgeInsets.all(10),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -27,28 +29,28 @@ class App extends StatelessWidget {
                   boxShadow: [
                     BoxShadow(
                       color: Colors.grey.withOpacity(0.5),
-                      spreadRadius: 5,
-                      blurRadius: 7,
+                      spreadRadius: 10,
+                      blurRadius: 5,
                       offset: Offset(0, 3),
                     ),
                   ],
                 ),
                 child: CircleAvatar(
-                  radius: 100,
-                  backgroundImage: AssetImage("assets/Image/1.jpg"),
+                  radius: 120,
+                  backgroundImage: AssetImage("assets/Image/Paspotr.jpg"),
                 ),
               ),
               SizedBox(
                 height: 20,
               ),
               Text(
-                "Asraful Islam Emon",
+                "Mahfozur Rahman  ",
                 style: TextStyle(fontSize: 50, fontWeight: FontWeight.bold),
               ),
               SizedBox(
                 height: 18,
               ),
-              Text("Asraful Islam Emon"),
+              Text("Mahfozur Rahman"),
               SizedBox(
                 height: 20,
               ),
@@ -68,7 +70,7 @@ class App extends StatelessWidget {
                       backgroundColor:
                           MaterialStateProperty.all<Color>(Colors.pink),
                       padding: MaterialStateProperty.all(
-                        EdgeInsets.symmetric(vertical: 23, horizontal: 45),
+                        EdgeInsets.symmetric(vertical: 15, horizontal: 20),
                       ),
                     ),
                     label: Text(
@@ -90,7 +92,7 @@ class App extends StatelessWidget {
                       backgroundColor:
                           MaterialStateProperty.all<Color>(Colors.pink),
                       padding: MaterialStateProperty.all(
-                        EdgeInsets.symmetric(vertical: 23, horizontal: 45),
+                        EdgeInsets.symmetric(vertical: 15, horizontal: 20),
                       ),
                     ),
                     label: Text(
@@ -112,7 +114,7 @@ class App extends StatelessWidget {
                       backgroundColor:
                           MaterialStateProperty.all<Color>(Colors.pink),
                       padding: MaterialStateProperty.all(
-                        EdgeInsets.symmetric(vertical: 23, horizontal: 45),
+                        EdgeInsets.symmetric(vertical: 15, horizontal: 20),
                       ),
                     ),
                     label: Text(
@@ -134,7 +136,7 @@ class App extends StatelessWidget {
                       backgroundColor:
                           MaterialStateProperty.all<Color>(Colors.pink),
                       padding: MaterialStateProperty.all(
-                        EdgeInsets.symmetric(vertical: 23, horizontal: 45),
+                        EdgeInsets.symmetric(vertical: 15, horizontal: 20),
                       ),
                     ),
                     label: Text(
